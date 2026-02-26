@@ -2,7 +2,7 @@ import { useState, useEffect } from "react";
 import { Link } from "react-router-dom";
 
 const NAV_LINKS = [
-  { label: "Home", to: "/home" },
+  { label: "Home", to: "/" },
   { label: "Services", to: "/services" },
   { label: "Booking", to: "/booking" },
   { label: "Contact", to: "/contact" },

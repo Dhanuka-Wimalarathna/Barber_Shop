@@ -8,7 +8,7 @@ export default function Layout() {
   // Derive active page label from current path
   const getActivePage = () => {
     const path = location.pathname;
-    if (path === "/home") return "Home";
+    if (path === "/") return "Home";
     if (path === "/services") return "Services";
     if (path === "/booking") return "Booking";
     if (path === "/contact") return "Contact";
